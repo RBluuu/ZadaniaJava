@@ -107,5 +107,101 @@ public class Main {
         System.out.println(treeSet);
 
         //https://www.bigocheatsheet.com/
+        System.out.println();
+        List<String> imiona3 = new ArrayList<>();
+        imiona3.add("Radek");
+        imiona3.add("Marek");
+        imiona3.add("Radek");
+        imiona3.add("Marek");
+        imiona3.add("Radek");
+        imiona3.add("Marek");
+        System.out.println(imiona3);
+
+        Set<String> imiona4 = new HashSet<>();
+        imiona4.add("Radek");
+        imiona4.add("Marek");
+        imiona3.add("Radek");
+        imiona3.add("Marek");
+        imiona3.add("Radek");
+        imiona3.add("Marek");
+        System.out.println(imiona4);
+
+        System.out.println();
+
+        List<Integer> numbers3 = new ArrayList<>(List.of(123, 43, 23, 12, 12, 43, 12, 43, 45, 54));
+
+        for (int i = 0; i < numbers3.size(); i++) {
+            if (numbers3.get(i) % 2 == 0) {
+                numbers3.remove(numbers3.get(i));
+                i--;
+            }
+        }
+        System.out.println(numbers3);
+
+        numbers3 = new ArrayList<>(List.of(123, 43, 23, 12, 12, 43, 12, 43, 45, 54));
+        /*for (Integer i : numbers3) {
+            if (i % 2 == 0) {
+                numbers3.remove(i);
+            }
+        }
+        System.out.println(numbers3);*/
+
+        System.out.println("Lista liczb");
+        System.out.println(numbers3);
+        numbers3 = new ArrayList(List.of(123, 43, 23, 12, 12, 43, 12, 43, 45, 54));
+        Iterator<Integer> iterator = numbers3.iterator();
+
+        while (iterator.hasNext()) {
+            Integer number = iterator.next();
+            if (number % 2 == 0) {
+                iterator.remove();
+            }
+        }
+        System.out.println(numbers3);
+
+        List<Integer> arrayList = new ArrayList<>();
+        arrayList.add(123);
+        System.out.println(arrayList);
+        List<Integer> asList = Arrays.asList(123, 43, 123); //lisa o stalym rozmiarze
+        //asList.add(123); //java.lang.UnsupportedOperationException
+        asList.set(0, 999);
+        System.out.println(asList);
+        List<Integer> listOf = List.of(123, 43, 123);//lista niemodyfikowalna
+        //listOf.add(321);//java.lang.UnsupportedOperationException
+        //listOf.set(0, 123);//java.lang.UnsupportedOperationException
+
+        List<Integer> numbers5 = new ArrayList<>(List.of(123, 43, 23, 1, 43, 54, 453, 3, 1));
+        numbers5.add(41);
+        numbers5.add(43);
+        System.out.println(numbers5);
+
+
+        //FIFO - first in first out
+        Queue<String> kolejkaDoKasy = new LinkedList<>();
+        kolejkaDoKasy.add("Kasia");
+        kolejkaDoKasy.add("Basia");
+        kolejkaDoKasy.add("Ala");
+        System.out.println(kolejkaDoKasy);
+        System.out.println(kolejkaDoKasy.peek()); //podjerzy 1 element ale go nie usinie
+        System.out.println(kolejkaDoKasy);
+        String pierwszaOsoba = kolejkaDoKasy.poll();
+        System.out.println(pierwszaOsoba); //zwroci 1 element i usunie go z kolejki
+        System.out.println(kolejkaDoKasy);
+        kolejkaDoKasy.remove(); // to samo co poll tylko rzuci wyjatkiem(bledem) gdy kolejka jest pusta
+        kolejkaDoKasy.element();// to samo co peek tylko rzuci wyjatkiem(bledem) gdy kolejka jest pusta
+        kolejkaDoKasy.offer("Zaneta"); //sprawdza czy element sie miesci w kolejce (czy mozemy go dodac)
+
+        //LIFO - last in first out
+        Stack<Integer> numbersStack = new Stack<>();
+        numbersStack.push(123);
+        numbersStack.push(555);
+        numbersStack.push(356);
+        System.out.println(numbersStack);
+        System.out.println(numbersStack.get(1));
+        System.out.println(numbersStack.peek());
+        System.out.println(numbersStack.pop()); //to samo co poll w kolejce - zwroci 1 element i go usunie
+        System.out.println(numbersStack.search(555));
+
+        //https://www.bigocheatsheet.com/
     }
 }

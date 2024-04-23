@@ -7,7 +7,7 @@ public class Kolekcje {
         //https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200811210521/Collection-Framework-1.png
         //https://www.bigocheatsheet.com/
 
-        //Lekcja 8 - Kolekcje, List, ArrayList, LinkedList, Set, HashSet, TreeSet, Map, HashMap, TreeMap
+        //Lekcja 12 - Kolekcje, List, ArrayList, LinkedList, Set, HashSet, TreeSet, Map, HashMap, TreeMap
 
         //W Javie mamy kilka rodzajów kolekcji, ktore pozwalaja na przechowywanie wielu elementow
         //rozne kolekcje maja rozne cechy, np. szybkosc dodawania, usuwania, wyszukiwania elementow
@@ -279,7 +279,7 @@ public class Kolekcje {
     mozesz sie poruszac tylko w prawo i w dol
      */
     //29. Stworz metode ktora przyjmuje liste stringow i sprawdza czy wszystkie stringi w liscie sa palindromami lub anagramami
-    //31. Przyjmij liste list list intow czyli List<List<List<Integer>>> i znajdz najwieksza liczne, najmniejsza liczbe, srednia, sume wszystkich liczb
+    //31. Przyjmij liste list list intow czyli List<List<List<Integer>>> i znajdz najwieksza liczbe, najmniejsza liczbe, srednia, sume wszystkich liczb
     //Sety:
     //1. Napisz metode ktora sprawdzi czy zbior zawiera podana liczbe
     //2. Napisz metode ktora sprawdzi czy zbior zawiera tylko liczby parzyste
