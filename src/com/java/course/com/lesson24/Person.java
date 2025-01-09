@@ -4,7 +4,6 @@ import java.util.Objects;
 
 public class Person extends Object {
     private String name;
-
     private String lastname;
     private int age;
 
@@ -61,7 +60,4 @@ public class Person extends Object {
     public int hashCode() {
         return Objects.hash(name, lastname, age);
     }
-
-
-
 }

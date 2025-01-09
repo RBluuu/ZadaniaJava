@@ -1,0 +1,10 @@
+person,anna,nowak,1993-05-15
+person,tomasz,lis,1990-07-23
+person,piotr,kaminski,1988-11-02
+person,magda,wieczorek,1997-01-08
+person,karol,lewandowski,1985-12-17
+person,ewa,mazur,1992-03-30
+person,adam,szymanski,1996-09-05
+person,joanna,grabowska,1991-02-28
+person,marcin,wozniak,1984-08-11
+person,paulina,ziemniak,1998-06-20

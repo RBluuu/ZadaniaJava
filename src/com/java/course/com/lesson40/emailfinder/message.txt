@@ -1,0 +1,75 @@
+Hello team,
+
+Please find the contact details below:
+
+1. John Doe - john.doe@example.com
+2. Jane Smith - jane_smith123@company.org
+3. Support team: support@service.co.uk
+4. Invalid email: justtext@missingdomain
+5. Another invalid: @noaddress.com
+6. Random text: hello@world and example.email without domain
+7. Test case: admin@website@domain.com (not a valid email)
+8. Marketing team: marketing@ads.biz
+9. Subdomains test: sub.mail@sub.example.com
+10. Short domain: a@b.c
+
+Best regards,
+Your Team
+
+Plock
+Berlin
+Zakopane
+
+Radek
+Darek
+marek
+lukasz
+Wojtek
+
+
+12-02-2024
+32-02-1995
+18-55-1995
+14-02-1995
+16-07-1995
+
+
+Radek Blauciak
+Darek Nowak
+marek jaworski
+lukasz kowalski
+Wojtek Blauciak
+
+
+55-01-1001
+00-02-0001
+01-01-1001
+
+
+
+Gorzow Wlkp.
+Zielona Gora
+Warszawa
+Bielsko-Biala
+
+
+abc/absd
+12A/12
+123
+123A
+123A/555
+88/1
+
+
+Mieszkam w Warszawie, w dzielnicy Śródmieście, gdzie kod pocztowy to 00-001 .
+Mój przyjaciel mieszka w Krakowie przy ulicy Grodzkiej, gdzie kod pocztowy to 31-002 .
+W zeszłym tygodniu odwiedziłem Wrocław, gdzie znajdowałem się w okolicy z kodem pocztowym 50-001 .
+Moja kuzynka przeprowadziła się niedawno do Gdańska, a jej adres jest w dzielnicy Wrzeszcz, kod pocztowy 80-001 .
+W Toruniu, na Starym Mieście, kod pocztowy to 87-100 .
+Kiedy podróżowałem po mniejszych miejscowościach, odwiedziłem Zakopane (34-500) oraz Kazimierz Dolny (24-120) .
+Natomiast moja znajoma mieszka na Mazurach, w Giżycku, gdzie kod pocztowy to 11-500 .
+Ostatnio zamawiałem paczkę do Poznania, na adres z kodem pocztowym 61-001 .
+W Lublinie, na ulicy Lubartowskiej, kod to 20-001 .
+
+
+

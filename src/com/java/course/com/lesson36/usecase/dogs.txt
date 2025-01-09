@@ -1,0 +1,11 @@
+dog,burek,kundel,10
+dog,reksio,beagle,5
+dog,luna,golden_retriever,3
+dog,max,bulldog,7
+dog,bella,labrador,4
+dog,rocky,rottweiler,6
+dog,zoe,poodle,8
+dog,bruno,boxer,2
+dog,shadow,german_shepherd,9
+dog,molly,cocker_spaniel,3
+dog,leo,dachshund,5

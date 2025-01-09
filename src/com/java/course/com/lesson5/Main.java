@@ -196,7 +196,7 @@ public class Main {
         for (int i = 0; i < tablica12.length; i++) {
             tablica12[i] = i + 1;
         }
-        System.out.println(Arrays.toString(tablica12));
+        System.out.println("Sortowanie babelkowe" + Arrays.toString(tablica12));
 
         //20. Stworz tablice, wypelnij ja losowymi liczbami od 1 do 10 i sprawdz czy jest w niej jakas liczba 5 korzystajac z binarySearch
         int[] tablica13 = new int[5];
