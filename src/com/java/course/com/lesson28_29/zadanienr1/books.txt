@@ -1,0 +1,5 @@
+1,Dom Versace,50,biografia,3246
+2,Chlopi,48,powiesc,456
+3,Wiedzimin Geralt z Rivii,39,fantasy,16251
+4,Krol Lew,39,Fikcja,5698
+5,Wiedzimin ostatnie zyczenie,42,fantasy,16251

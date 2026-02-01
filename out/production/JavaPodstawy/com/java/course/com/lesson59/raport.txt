@@ -1,0 +1,6 @@
+Lp,Imię i Nazwisko,Stanowisko,Pensja podstawowa,Premia,Potrącenia,Wynagrodzenie netto
+1,Anna Kowalska,Specjalista ds. HR,7000,500,200,7300
+2,Jan Nowak,Programista Java,12000,1500,300,13200
+3,Piotr Wiśniewski,Analityk danych,9500,700,250,9950
+4,Maria Zielińska,Grafik UX/UI,8000,600,150,8450
+5,Tomasz Wójcik,Kierownik Projektu,14000,2000,400,15600
