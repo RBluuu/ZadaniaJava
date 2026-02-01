@@ -68,24 +68,39 @@ public class Main {
         newList.add("Radek");
         newList.add("Darek");
         newList.add("Marek");
+        System.out.println("Lista: " + newList);
+        System.out.println(radomNumber(newList));
+        //System.out.println(newList.get(6));
+       /* try {
+            System.out.println(newList.get(6));
+        } catch (IndexOutOfBoundsException ex) {
+            System.out.println("Taki indeks nie istnieje");
+        }
+
+        */
+
+        try {
+            int x = 10;
+            int y = 0;
+            System.out.println(x / y);
+        }catch (ArithmeticException ex) {
+            System.out.println("nie dzielimy przez 0");
+        }
+    }
+
+    public static String radomNumber(List<String> lista){
         Random random = new Random();
         int randomNumber = random.nextInt(6);
-        String selectedElement;
-        if (randomNumber >= 0 && randomNumber < newList.size()) {
-            selectedElement = newList.get(randomNumber);
+        String text = null;
+        if (randomNumber < lista.size()) {
+            text = lista.get(randomNumber);
         } else {
-            selectedElement = "Brak elementu";
+            text = "wylosowana wartosc jest poza zakresem listy ";
         }
-        System.out.println("Lista: " + newList);
-        System.out.println("Wylosowany indeks: " + randomNumber);
-        System.out.println("Wylosowany element: " + selectedElement);
-
-
-
-
-
-
+        return text;
     }
+
+
     public static void recurrence(){
         System.out.println("hello");
         recurrence();
@@ -126,25 +141,25 @@ public class Main {
     }
 }
 /*
-        Wyjątki - zrobione, dokonczyc
+        Wyjątki - zrobione
         // Stwórz liste i dodaj jej 3 eleemtny np Stringi. Losujemy liczbe z zakrezu 0-5
 		// i do zmiennej typu String
 		// przypisujemy wylosowany element listy, obsluz sytuacje gdy wylosowana wartosc
 		// jest poza zakresem listy
 
 
-
+        // Zrobione
        // wczytauj cos z pliku uzywajac try with resources -- zrobione
 
 
-
+        //Zrobione
 		//Stworz asocjacje pomiedzy klientem i produktem 1-*. Obsluz sytuacje gdy produkt jest nullem, wtedy automatycznie ustwiamy
 		//klientowi ze zamowil lamborghini za 10000000
 		//zamow(Produkt) -> jezeli produk to null to dodajemy mu lamborghini
  */
 
 
-
+        // Zrobione
 		// Stworz klase Osoba (imie, nazwisko, miasto, wiek) oraz Sklep (nazwa, miasto)
 		// - metoda co zwraca najstarsza kobiete lub NoWomenException jesli brak kobiet na liscie
 		// - kobiety chodza do sklepow, mezczyzni nie, zatem powiazania ze sklepem moga miec tylko kobiety, w przypadku próby dodania powiazania mezyczyzna

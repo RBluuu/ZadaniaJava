@@ -1,7 +1,5 @@
 package com.java.course.com.lesson42.exceptioniheritance;
 
-import java.util.Random;
-
 public class MyException extends RuntimeException {
 }
 

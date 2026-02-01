@@ -223,7 +223,7 @@ public class Main {
     }
 
     //HashMap,,TreeMap,LinkedHashMap
-    //przyjmij jakas mape i zwroc posortowana po kluczac
+    //przyjmij jakas mape i zwroc posortowana po kluczach
 
     public static Map<String, String> sortowanie(Map<String, String> map) {
         return new TreeMap<>(map);
